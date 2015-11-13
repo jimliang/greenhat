@@ -19,7 +19,7 @@ program
     .option('-d, --day <n>', 'an integer specifying n number of days before today to generate commits.', parseInt)
     .option('-D, --date <YYYY-MM-DD>', 'a date string in the form yyyy-mm-dd (e.g. 2015-11-13).')
     .option('-l, --log', 'log the details.')
-    .option('-h, --humanize', 'random git commit message by whatthecommit. Careful, the speed will becomes slower.')
+    .option('-H, --humanize', 'random git commit message by whatthecommit. Careful, the speed will becomes slower.')
     .parse(process.argv);
 
 colors.setTheme({
