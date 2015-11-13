@@ -19,6 +19,7 @@ program
     .option('-d, --day <n>', 'an integer specifying n number of days before today to generate commits.', parseInt)
     .option('-D, --date <YYYY-MM-DD>', 'a date string in the form yyyy-mm-dd (e.g. 2015-11-13).')
     .option('-l, --log', 'log the details.')
+    .option('-h, --humanize', 'random git commit message by whatthecommit. Careful, the speed will becomes slower.')
     .parse(process.argv);
 
 colors.setTheme({
@@ -109,7 +110,7 @@ var timer = (function() {
  * Main program.
  */
 var main = function() {
-    var startDate, currentDate, currentGitDate, day, commitNum, content, cli, stdout, difference;
+    var startDate, currentDate, currentGitDate, day, commitNum, commitMessage, content, cli, stdout, difference;
 
     var log = program.log;
 
@@ -137,6 +138,12 @@ var main = function() {
         startDate = moment().format('YYYY-MM-DD');
     }
 
+    if (program.humanize) {
+        commitMessage = '`curl http://whatthecommit.com/index.txt`';
+    } else {
+        commitMessage = 'update';
+    }
+
     console.log(('程序开始执行, 截止日期为: ' + startDate + ', 目标天数为: ' + day + ' 天').verbose);
     console.log(' ');
 
@@ -152,7 +159,7 @@ var main = function() {
 
             content = moment(currentDate).format('ll') + ' ' + parseInt(Math.random()*10000).toString();
 
-            cli = 'echo "' + content + '" > realwork.txt && git add realwork.txt && GIT_AUTHOR_DATE="' + currentGitDate + '" GIT_COMMITTER_DATE="' + currentGitDate + '" git commit -m "update" && git push;';
+            cli = 'echo "' + content + '" > realwork.txt && git add realwork.txt && GIT_AUTHOR_DATE="' + currentGitDate + '" GIT_COMMITTER_DATE="' + currentGitDate + '" git commit -m "' + commitMessage + '" && git push;';
 
             stdout = childProcess.execSync(cli, {
                 encoding: 'UTF-8'
