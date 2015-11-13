@@ -1,0 +1,38 @@
+{
+  "name": "greenhat",
+  "version": "0.0.1",
+  "description": "greenhat is a quick hack for decorating your GitHub contribution calendar with commits for the past n days. It uses the GIT_AUTHOR_DATE and GIT_COMMITTER_DATE environmental variables to make commits appear in the past. Be warned that greenhat will clobber your repository's commit history.",
+  "main": "bin/greenhat.js",
+  "bin": {
+    "greenhat": "bin/greenhat.js"
+  },
+  "scripts": {
+    "start": "node ./bin/greenhat 5",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sqrthree/greenhat.git"
+  },
+  "author": "sqrtthree <sqrtthree@foxmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "moment": "^2.10.6",
+    "update-notifier": "^0.5.0"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "greenhat",
+    "github",
+    "contributions"
+  ],
+  "bugs": {
+    "url": "https://github.com/sqrthree/greenhat/issues",
+    "email": "sqrtthree@foxmail.com"
+  }
+}

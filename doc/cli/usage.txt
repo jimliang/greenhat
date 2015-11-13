@@ -1,0 +1,3 @@
+  Usage: greenhat [greenhat options] [args]
+
+  See "greenhat --help" for more.
