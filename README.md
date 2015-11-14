@@ -8,7 +8,7 @@
 
 ##### 全局安装
 ```
-$ npm install -g greenha
+$ npm install -g greenhat
 ```
 
 ##### 本地安装
