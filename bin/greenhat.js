@@ -112,9 +112,11 @@ var timer = (function() {
 var main = function() {
     var startDate, currentDate, currentGitDate, day, commitNum, commitMessage, content, cli, stdout, difference;
 
-    var log = program.log;
+    var log = ''//program.log;
 
     timer.start();
+
+
 
     if (program.args.length === 1 && !isNaN(Number(program.args[0]))) {
         day = parseInt(program.args[0]);
@@ -127,9 +129,10 @@ var main = function() {
         process.exit(1);
     }
 
+
     if (program.date) {
         if (moment(program.date).diff(moment()) >= 0) {
-            console.log('参数设置错误, 目标时间必须为今天之前的某一天.'.red);
+            console.log('参数设置错误, 目标时间必须为今天之前的某一天.');
             return;
         } else {
             startDate = moment(program.date).format('YYYY-MM-DD');
@@ -144,32 +147,35 @@ var main = function() {
         commitMessage = 'update';
     }
 
-    console.log(('程序开始执行, 截止日期为: ' + startDate + ', 目标天数为: ' + day + ' 天').verbose);
-    console.log(' ');
+    console.log(('程序开始执行, 截止日期为: ' + startDate + ', 目标天数为: ' + day + ' 天'));
 
     while(day--) {
         currentDate = getDateString(day, startDate);
         currentGitDate = moment(currentDate).format();
-        
-        commitNum = Math.ceil(Math.random()*10);
-        console.logger(log, '目标日期: ' + currentDate + '  目标次数: ' + commitNum, 'info');
+
+        commitNum = (Math.random() >.3) ? Math.floor(Math.random()*10):0;
+        //commitNum = Math.floor(Math.random()*10);
+        console.log( '目标日期: ' , currentDate , '  目标次数: ', commitNum);
+
+        //console.log('bbbb')
 
         for (var i = 0; i < commitNum; i++) {
-            console.logger(log, '进行第 ' + (i+1) + ' 次提交', 'prompt');
+            //console.log( '进行第 ' + (i+1) + ' 次提交', 'prompt');
 
+            if(commitNum == 0) break;
             content = moment(currentDate).format('ll') + ' ' + parseInt(Math.random()*10000).toString();
 
-            cli = 'echo "' + content + '" > realwork.txt && git add realwork.txt && GIT_AUTHOR_DATE="' + currentGitDate + '" GIT_COMMITTER_DATE="' + currentGitDate + '" git commit -m "' + commitMessage + '" && git push;';
-
+            cli = 'echo "' + content + '" > realwork.txt && git add realwork.txt && SET GIT_AUTHOR_DATE="' + currentGitDate + '";SET GIT_COMMITTER_DATE="' + currentGitDate + '" git commit -m "' + commitMessage + '" && git push;';
+            //console.log(currentGitDate+': '+cli);
             stdout = childProcess.execSync(cli, {
                 encoding: 'UTF-8'
             });
 
-            console.log(stdout);
+            console.log(currentGitDate+': '+stdout);
         }
     }
 
-    console.logger(log, '我们正在处理一些事情.', 'prompt');
+    console.log( '我们正在处理一些事情.', 'prompt');
 
     cli = 'git rm realwork.txt && git commit -m "delete" && git push;';
 
@@ -181,7 +187,7 @@ var main = function() {
 
     difference = timer.end();
 
-    console.log('任务完成, 总耗时: %s ms (%s).'.info, difference, moment.duration(difference).locale('zh-cn').humanize(true));
+    console.log('任务完成, 总耗时: %s ms (%s).', difference, moment.duration(difference).locale('zh-cn').humanize(true));
 }
 
 updateNotifier({pkg: pkg}).notify();
