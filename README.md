@@ -45,6 +45,10 @@ $ greenhat -d <n> -D <date>
 
 如果你使用了 `-l, --log` 参数，程序将会在终端中打印出所有的执行日志。
 
+默认 commit 信息为 "update"，如果你想使用个性化的提交信息，可以使用 `-H` 参数，它会从 [whatthecommit](http://whatthecommit.com/index.txt) 获取一些个性化的提交信息，但是因此要付出的代价是，速度可能会变得很慢。
+
+具体的可以使用 `greenhat -h` 命令查看详细信息。
+
 #### 例子
 
 下面这张图片是执行完 `greenhat 365` 命令得到的结果，So beautiful, isn't it?
