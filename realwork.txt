@@ -1,2 +1,2 @@
-Dec 15, 2015 6749
-Removed test case since code didn't pass QA
+Dec 15, 2015 8348
+Committing in accordance with the prophecy.
