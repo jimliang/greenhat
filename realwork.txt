@@ -1,2 +1,2 @@
-Sep 30, 2015 8950
-This is supposed to crash
+Sep 30, 2015 4783
+Refactored configuration.
