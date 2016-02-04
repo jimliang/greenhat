@@ -1,2 +1,2 @@
-Oct 1, 2015 7964
-tunning
+Oct 2, 2015 363
+making this thing actually usable.
