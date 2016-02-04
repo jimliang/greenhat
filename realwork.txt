@@ -1,2 +1,2 @@
-Dec 5, 2015 3303
-bump to 0.0.3-dev:wq
+Dec 6, 2015 5370
+debugo
