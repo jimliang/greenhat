@@ -1,2 +1,2 @@
-Sep 8, 2015 1875
-I really should've committed this when I finished it...
+Sep 8, 2015 5366
+better ignores
