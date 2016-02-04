@@ -1,2 +1,2 @@
-Dec 12, 2015 8311
-I should get a raise for this.
+Dec 12, 2015 336
+Derp, asset redirection in dev mode
