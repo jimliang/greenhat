@@ -1,2 +1,2 @@
-Nov 1, 2015 4026
-Use a real JS construct, WTF knows why this works in chromium.
+Nov 1, 2015 6944
+A fix I believe, not like I tested or anything
