@@ -1,2 +1,2 @@
-Oct 12, 2015 6093
-Added missing file in previous commit
+Oct 14, 2015 263
+derp, helper method rename
