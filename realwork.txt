@@ -1,2 +1,2 @@
-Dec 21, 2015 8113
-removed echo and die statements, lolz.
+Dec 22, 2015 1429
+loginx made me do it
