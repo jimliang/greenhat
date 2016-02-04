@@ -1,2 +1,2 @@
-Dec 21, 2015 6251
-640K ought to be enough for anybody
+Dec 21, 2015 6909
+fixed conflicts (LOL merge -s ours; push -f)
