@@ -1,2 +1,2 @@
-Oct 15, 2015 5754
-Fixing Thomas's bugs.
+Oct 15, 2015 5401
+Fixed a bug in NoteLineCount... not seriously...
