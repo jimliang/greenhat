@@ -1,2 +1,2 @@
-Oct 18, 2015 3749
-This is supposed to crash
+Oct 18, 2015 975
+RACHEL, WE WENT OVER THIS. C++ IO SUCKS.
