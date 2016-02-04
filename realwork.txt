@@ -1,2 +1,2 @@
-Sep 21, 2015 748
-This is why git rebase is a horrible horrible thing.
+Sep 21, 2015 3777
+hoo boy
