@@ -1,2 +1,2 @@
-Nov 18, 2015 8766
-removed tests since i can't make them green
+Nov 18, 2015 4208
+Reset error count between rows. herpderp
