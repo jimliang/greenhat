@@ -1,2 +1,2 @@
-Jan 17, 2016 1186
-pep8 - cause I fell like doing a barrel roll
+Jan 18, 2016 7069
+more ignored words
