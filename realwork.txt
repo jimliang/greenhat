@@ -1,2 +1,2 @@
-Dec 17, 2015 2016
-Trying to fake a conflict
+Dec 17, 2015 1475
+It'd be nice if type errors caused the compiler to issue a type error
