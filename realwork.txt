@@ -1,2 +1,2 @@
-Nov 26, 2015 7477
-It'd be nice if type errors caused the compiler to issue a type error
+Nov 26, 2015 2907
+Updated build targets.
