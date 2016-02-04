@@ -1,2 +1,2 @@
-Dec 12, 2015 8593
-added some filthy stuff
+Dec 13, 2015 4945
+GUILLAUME, WE WENT OVER THIS. C++ IO SUCKS.
