@@ -1,2 +1,2 @@
-Dec 13, 2015 4945
-GUILLAUME, WE WENT OVER THIS. C++ IO SUCKS.
+Dec 13, 2015 4422
+Fixing Michael's bugs.
