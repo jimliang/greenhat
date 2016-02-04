@@ -1,2 +1,2 @@
-Feb 4, 2016 5560
-pgsql is more strict, increase the hackiness up to 11
+Feb 4, 2016 7815
+Removed code.
