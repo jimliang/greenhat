@@ -1,2 +1,2 @@
-Nov 18, 2015 311
-it is hump day _^_
+Nov 18, 2015 8766
+removed tests since i can't make them green
