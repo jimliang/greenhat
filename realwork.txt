@@ -1,2 +1,2 @@
-Oct 31, 2015 9685
-extra debug for stuff module
+Oct 31, 2015 7965
+lots of changes after a lot of time
