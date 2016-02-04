@@ -1,2 +1,2 @@
-Nov 26, 2015 8462
-typo
+Nov 26, 2015 7477
+It'd be nice if type errors caused the compiler to issue a type error
