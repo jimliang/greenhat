@@ -1,2 +1,2 @@
-Dec 10, 2015 6341
-derp, helper method rename
+Dec 10, 2015 1385
+(c) Microsoft 1988
