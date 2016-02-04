@@ -1,2 +1,2 @@
-Jan 7, 2016 694
-I was wrong...
+Jan 9, 2016 2734
+Make that it works in 90% of the cases.  3:30.
