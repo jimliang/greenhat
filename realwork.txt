@@ -1,2 +1,2 @@
-Oct 18, 2015 9403
-fixed conflicts (LOL merge -s ours; push -f)
+Oct 18, 2015 3839
+last minute fixes.
