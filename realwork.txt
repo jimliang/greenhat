@@ -1,2 +1,2 @@
-Oct 25, 2015 5023
-Fixed a little bug...
+Oct 25, 2015 771
+I'll explain this when I'm sober .. or revert it
