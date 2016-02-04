@@ -1,2 +1,2 @@
-Nov 8, 2015 900
-Committing fixes in the dark, seriously, who killed my power!?
+Nov 8, 2015 174
+Handled a particular error.
