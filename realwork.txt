@@ -1,2 +1,2 @@
-Jan 1, 2016 7707
-I CAN HAZ PYTHON, I CAN HAZ INDENTS
+Jan 1, 2016 579
+That last commit message about silly mistakes pales in comparision to this one
