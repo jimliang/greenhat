@@ -1,2 +1,2 @@
-Jan 15, 2016 7484
-lots and lots of changes
+Jan 17, 2016 4060
+this is how we generate our shit.
