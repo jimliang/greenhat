@@ -1,2 +1,2 @@
-Sep 24, 2015 3883
-minor changes
+Sep 24, 2015 4093
+Fixed unnecessary bug.
