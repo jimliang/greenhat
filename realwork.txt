@@ -1,2 +1,2 @@
-Nov 1, 2015 7610
-The last time I tried this the monkey didn't survive. Let's hope it works better this time.
+Nov 1, 2015 4026
+Use a real JS construct, WTF knows why this works in chromium.
