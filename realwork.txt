@@ -1,2 +1,2 @@
-Oct 31, 2015 4203
-LOTS of changes. period
+Nov 1, 2015 7610
+The last time I tried this the monkey didn't survive. Let's hope it works better this time.
