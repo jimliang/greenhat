@@ -1,2 +1,2 @@
-Nov 13, 2015 794
-commented out failing tests
+Nov 16, 2015 8492
+copy and paste is not a design pattern
