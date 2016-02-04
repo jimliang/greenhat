@@ -1,2 +1,2 @@
-Jan 1, 2016 579
-That last commit message about silly mistakes pales in comparision to this one
+Jan 1, 2016 20
+[Insert your commit message here. Be sure to make it descriptive.]
