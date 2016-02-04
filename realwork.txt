@@ -1,2 +1,2 @@
-Nov 9, 2015 4852
-squash me
+Nov 9, 2015 7518
+Final commit, ready for tagging
