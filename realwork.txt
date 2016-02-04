@@ -1,2 +1,2 @@
-Sep 21, 2015 7600
-bifurcation
+Sep 21, 2015 748
+This is why git rebase is a horrible horrible thing.
