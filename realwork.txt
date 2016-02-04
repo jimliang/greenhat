@@ -1,2 +1,2 @@
-Sep 30, 2015 6388
-pgsql is being a pain
+Sep 30, 2015 8950
+This is supposed to crash
