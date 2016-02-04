@@ -1,2 +1,2 @@
-Dec 23, 2015 9058
-Made it to compile...
+Dec 23, 2015 5889
+Derp. Fix missing constant post rename
