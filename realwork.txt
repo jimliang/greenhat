@@ -1,2 +1,2 @@
-Sep 14, 2015 3552
-[Insert your commit message here. Be sure to make it descriptive.]
+Sep 17, 2015 5690
+Become a programmer, they said. It'll be fun, they said.
