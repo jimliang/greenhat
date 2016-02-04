@@ -1,2 +1,2 @@
-Oct 7, 2015 8239
-No changes made
+Oct 7, 2015 6237
+Now added delete for real
