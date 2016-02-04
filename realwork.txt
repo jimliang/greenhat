@@ -1,2 +1,2 @@
-Sep 26, 2015 5446
-Shovelling coal into the server...
+Sep 30, 2015 6388
+pgsql is being a pain
