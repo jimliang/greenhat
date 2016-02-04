@@ -1,2 +1,2 @@
-Nov 3, 2015 6986
-bla
+Nov 3, 2015 346
+copy and paste is not a design pattern
