@@ -1,2 +1,2 @@
-Jan 26, 2016 81
-Added missing file in previous commit
+Jan 27, 2016 5864
+fixed the israeli-palestinian conflict
