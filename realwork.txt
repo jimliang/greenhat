@@ -1,2 +1,2 @@
-Dec 21, 2015 9731
-Whatever will be, will be 8{
+Dec 21, 2015 8113
+removed echo and die statements, lolz.
