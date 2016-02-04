@@ -1,2 +1,2 @@
-Jan 27, 2016 5928
-pgsql is more strict, increase the hackiness up to 11
+Jan 31, 2016 2893
+QuickFix.
