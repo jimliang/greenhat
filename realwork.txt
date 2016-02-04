@@ -1,2 +1,2 @@
-Sep 24, 2015 1884
-Derp search/replace fuckup
+Sep 24, 2015 9589
+Fixing lupomontero's bugs.
