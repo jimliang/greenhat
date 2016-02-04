@@ -1,2 +1,2 @@
-Nov 4, 2015 1378
-derp, helper method rename
+Nov 4, 2015 3912
+FOUTRELIS, WE WENT OVER THIS. C++ IO SUCKS.
