@@ -1,2 +1,2 @@
-Dec 23, 2015 6387
-more ignores
+Dec 23, 2015 1980
+Removed code.
