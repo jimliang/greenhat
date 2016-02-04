@@ -1,2 +1,2 @@
-Dec 14, 2015 4280
-I CAN HAZ PYTHON, I CAN HAZ INDENTS
+Dec 15, 2015 6749
+Removed test case since code didn't pass QA
