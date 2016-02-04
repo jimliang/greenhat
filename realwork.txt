@@ -1,2 +1,2 @@
-Nov 16, 2015 8492
-copy and paste is not a design pattern
+Nov 18, 2015 311
+it is hump day _^_
