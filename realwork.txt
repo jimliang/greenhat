@@ -1,2 +1,2 @@
-Jan 14, 2016 8360
-FOR REAL.
+Jan 14, 2016 8811
+Fixed a bug in NoteLineCount... not seriously...
