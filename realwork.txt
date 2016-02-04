@@ -1,2 +1,2 @@
-Sep 11, 2015 9960
-Argh! About to give up :(
+Sep 11, 2015 8999
+Blaming regex.
